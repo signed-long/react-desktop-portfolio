@@ -4,6 +4,8 @@ import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import GameSelector from './components/GameSelector';
+import Solitare from './components/Solitare';
 import { Router } from "@reach/router";
 
 class App extends React.Component {
@@ -42,6 +44,16 @@ class App extends React.Component {
                         />
                         <Projects
                             path="/projects"
+                            showing={this.state.showingWindow}
+                            toggleWindowShowing={this.toggleWindowShowing}
+                        />
+                        <GameSelector
+                            path="/games"
+                            showing={this.state.showingWindow}
+                            toggleWindowShowing={this.toggleWindowShowing}
+                        />
+                        <Solitare
+                            path="/solitare"
                             showing={this.state.showingWindow}
                             toggleWindowShowing={this.toggleWindowShowing}
                         />

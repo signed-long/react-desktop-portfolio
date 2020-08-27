@@ -23,6 +23,15 @@ const Sidebar = (props) => (
                     txt='projects'
                 />
             </Nav.Item>
+            <Nav.Item className='noselect desktop_icon'>
+                <Icon
+                    openWindow={props.openWindow}
+                    imgSrc='/arcade.png'
+                    atlTxt='games icon'
+                    to='games'
+                    txt='games'
+                />
+            </Nav.Item>
         </Nav>
     </>
 )
