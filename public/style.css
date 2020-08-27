@@ -23,7 +23,7 @@ body {
 }
 .window-content{
     padding: 30px;
-    max-height: 65vh;
+    max-height: 60vh;
     width: 100%;
     position: absolute;
     overflow-y: scroll;
@@ -101,8 +101,8 @@ body {
         color: #bc42f5;
         font-family: monospace;
     }
-    .h-65 {
-        height: 65vh;
+    .h-60 {
+        height: 60vh;
     }
 
 .ghost-select {
@@ -144,8 +144,6 @@ body {
     height: 24px;
     width: 24px;
     float: right;
-
-
 }
 
 .draggable{
