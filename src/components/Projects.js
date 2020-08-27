@@ -49,7 +49,7 @@ class Projects extends React.Component {
         return (
             <>
                 <Window
-                    contentClass = 'window-content h-60'
+                    contentClass = 'window-content h-65'
                     className={'projects-window' + (this.props.showing ? '' : ' d-none')}
                     toggleWindowShowing={this.props.toggleWindowShowing}
                 >

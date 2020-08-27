@@ -13,10 +13,10 @@ class About extends React.Component {
                     <h2>Whats up, I'm Michael!</h2>
                     <ul>
                         <li>
-                            I'm a developer and student currently studying
+                            I'm a developer and student studying
                             computing science at the University of Alberta.
                             I’m interested in building software that improves
-                            people’s lives, businesses, and art. 
+                            people’s lives, businesses, and art.
                         </li>
 
                     </ul>
