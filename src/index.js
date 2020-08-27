@@ -49,7 +49,7 @@ class App extends React.Component {
                 </div>
                 <footer>
                     built with {heart} by Michael Long /
-                    icons from <a href='https://icons8.com' target="__blank">Icon8</a>
+                    icons from <a href='https://icons8.com' target="__blank">Icons8</a>
                 </footer>
 
             </>
