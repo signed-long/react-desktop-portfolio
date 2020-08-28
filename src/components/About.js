@@ -21,7 +21,7 @@ class About extends React.Component {
 
                     </ul>
                     <p>
-                        Checkout my work at:
+                        Check out my work at:
                         <a href='https://github.com/MichaelongII'>
                             <img className='small-icon' src='gh.png' alt='github icon'/>
                         </a>

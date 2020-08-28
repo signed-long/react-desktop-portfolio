@@ -32,7 +32,7 @@ class Projects extends React.Component {
             },
             {   title: 'Portfolio Website',
                 type: 'iOS',
-                techs: ['JavaScipt', 'React'],
+                techs: ['JavaScipt', 'React', 'CSS'],
                 desc: [
                     `The site you’re on right now! A simple portfolio site to display some of
                     my projects and experience.`,
