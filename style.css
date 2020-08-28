@@ -38,7 +38,8 @@ body {
 @media (max-width:414px) {
     .window-content{
         padding: 30px;
-        max-height: calc(100vh - 32px - 24vh);
+        max-height: calc(100vh - 120px - 24vh);
+        margin-bottom: auto;
         width: 100%;
         position: absolute;
         overflow-y: scroll;
@@ -92,11 +93,17 @@ body {
         }
         .projects-window{
             margin-top: 4vh;
+            width: 95%;
+        }
+    }
+    @media (max-width:320px) {
+        .about-window {
+            margin-top: 1vh;
             width: 85%;
         }
     }
     .project-content{
-        padding: 10px 10px 10px 45px;
+        padding: 10px 10px 10px 30px;
         margin-bottom: 5px;
     }
     .project-content:hover{
@@ -223,7 +230,7 @@ body {
         text-align: center;
         margin: auto;
         z-index: 1;
-        margin-bottom: 5vh;
+        margin-bottom: 22px;
     }
 }
 
@@ -238,14 +245,6 @@ body {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-.desktop_icon {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 15px;
-    color: blue;
-
-}
 
 
 a {
@@ -287,5 +286,28 @@ ul {
         margin-left: auto;
         padding: 4px;
         text-align: center;
+    }
+}
+
+@media all and (min-width:414px) {
+    .desktop_icon {
+        display: block;
+        text-align: center;
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+        color: blue;
+        padding-bottom: 18px;
+    }
+}
+
+@media (max-width:414px) {
+    .desktop_icon {
+        display: block;
+        text-align: center;
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+        color: blue;
     }
 }
