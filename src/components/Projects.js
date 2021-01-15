@@ -5,7 +5,7 @@ class Projects extends React.Component {
     constructor () {
         super();
         this.projects = [
-            {   title: 'tapeflip.app',
+            {   title: 'TapeFlip.app',
                 type: 'web',
                 techs: ['Python', 'Flask', "Bootstrap", 'Twillio'],
                 desc: [
@@ -16,33 +16,36 @@ class Projects extends React.Component {
                     notifications via email and SMS powered by Twillio’s Api/SDK,
                     and collecting payments using the PayPal Api/SDK.`
                 ],
-                date: 'July, 2020',
-                link: {exists: true, git: false, url: 'https://www.tapeflip.app'}
+                date: 'Summer, 2020',
+                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/TapeFlip.app'}
             },
-            {   title: 'Mixtape App',
+            {   title: 'Swift iPod App',
                 type: 'iOS',
                 techs: ['Swift', 'SwitUi', "CoreData"],
                 desc: [
-                    `iOS app that provides a user interface for creating playlists from,
-                    listening to, and skipping through songs that the user has stored
-                    in the Files app.`
+                    `iOS app that’s goal is to replicate the core features of
+                    an iPod with the songs a user has stored in the Files App.`,
+                    `I implemented a space and time efficient player object
+                    to handle playing and skipping though songs, as well as
+                    support for playlists, artists, and albums.`
                 ],
-                date: 'April, 2020',
-                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/SwiftUI-Mixtape-Player'}
+                date: 'Spring, 2020',
+                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/Swift-iPod'}
             },
-            {   title: 'Portfolio Website',
-                type: 'iOS',
-                techs: ['JavaScipt', 'React', 'CSS'],
+            {   title: 'Little Free Library App',
+                type: 'Android',
+                techs: ['Java', 'Android'],
                 desc: [
-                    `The site you’re on right now! A simple portfolio site to display some of
-                    my projects and experience.`,
-                    `This project served as an introduction to JS and React. I learned
-                    a lot while making it, specifially about React concepts like JSX,
-                    class-based vs. functional components, and state.`
+                    `A book sharing app for Android built in a group as the term project
+                    for my Intro to Software Engineering class.`,
+                    `The features that I implemented were, scanning
+                    a book’s barcode with the camera, getting a book’s information
+                    from the Google Books API, and storing this information using Firebase.`
                 ],
-                date: 'August, 2020',
-                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/react-desktop-portfolio'}
-            }
+                date: 'Fall, 2020',
+                link: {exists: true, git: true, url: 'https://github.com/CMPUT301F20T29/Bobs-Little-Free-Library'}
+            },
+
         ]
     }
     render() {
