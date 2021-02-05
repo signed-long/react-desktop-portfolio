@@ -311,3 +311,17 @@ ul {
         color: blue;
     }
 }
+
+.profiles-table {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    padding: 10px 0 10px 0;
+}
+
+td:hover {
+            border: 1px solid black;
+            cursor: pointer;
+}
