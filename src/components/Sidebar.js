@@ -8,7 +8,7 @@ const Sidebar = (props) => (
             <Nav.Item className='noselect desktop_icon'>
                 <Icon
                     openWindow={props.openWindow}
-                    imgSrc='/txt.png'
+                    imgSrc='/icons8-txt-50.png'
                     atlTxt='about icon'
                     to='/'
                     txt='about'
@@ -17,7 +17,7 @@ const Sidebar = (props) => (
             <Nav.Item className='noselect desktop_icon'>
                 <Icon
                     openWindow={props.openWindow}
-                    imgSrc='/console.png'
+                    imgSrc='/icons8-folder-48.png'
                     atlTxt='projects icon'
                     to='projects'
                     txt='projects'

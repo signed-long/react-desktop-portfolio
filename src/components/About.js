@@ -10,7 +10,7 @@ class About extends React.Component {
                     className={'about-window ' + (this.props.showing ? '' : 'd-none')}
                     toggleWindowShowing={this.props.toggleWindowShowing}
                 >
-                    <h2>Whats up, I'm Michael!</h2>
+                    <h2>> whoami</h2>
                     <ul>
                         <li>
                             I'm a developer and student studying

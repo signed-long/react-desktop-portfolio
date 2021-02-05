@@ -45,6 +45,18 @@ class Projects extends React.Component {
                 date: 'Fall, 2020',
                 link: {exists: true, git: true, url: 'https://github.com/CMPUT301F20T29/Bobs-Little-Free-Library'}
             },
+            {   title: 'Portfolio Site',
+                type: 'Android',
+                techs: ['JavaScript', 'React', "CSS"],
+                desc: [
+                    `The website you're on right now! A simple desktop themed portfolio
+                    site built using React.`,
+                    `I find the best way for me to wrap my head around a new technology is
+                    to build a small project with it - so I made this site as my introduction to React.`
+                ],
+                date: 'Summer, 2020',
+                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/react-desktop-portfolio'}
+            },
 
         ]
     }
@@ -56,7 +68,7 @@ class Projects extends React.Component {
                     className={'projects-window' + (this.props.showing ? '' : ' d-none')}
                     toggleWindowShowing={this.props.toggleWindowShowing}
                 >
-                    <h2>Projects</h2>
+                    <h2>> projects</h2>
                     {this.projects.map((project, i) =>
                         <Project
                             key={project.title}
