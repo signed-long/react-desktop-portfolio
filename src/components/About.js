@@ -22,10 +22,10 @@ class About extends React.Component {
                     </ul>
                     <p>
                         Check out my work at:
-                        <a href='https://github.com/MichaelongII'>
+                        <a href='https://github.com/signed-long' target="_blank">
                             <img className='small-icon' src='gh.png' alt='github icon'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/michael-long-5a1623160/'>
+                        <a href='https://www.linkedin.com/in/michael-long-5a1623160/' target="_blank">
                             <img className='small-icon' src='li.png' alt='linkedin icon'/>
                         </a>
                     </p>
