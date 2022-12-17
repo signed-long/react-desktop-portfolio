@@ -5,6 +5,18 @@ class Projects extends React.Component {
     constructor () {
         super();
         this.projects = [
+            {   title: 'Istio End-User Authorization Demo',
+                type: 'DevOps',
+                techs: ['Kubernetes', 'Istio', "Helm", 'Github Actions', 'Flask'],
+                desc: [
+                    `A simple application where a user can GET private routes only after being authenticated and possessing a valid, signed JWT token.`,
+                    `Deployed with helm to a local kubernetes cluster with support for automated database migrations.`,
+                    `Made up of two Flask microservices with CI pipelines using GitHub actions and Github Container Registry.`,
+                    `Istio Gateway and AuthorizationPolicy are used to move JWT verification and authorization logic out of application code.`
+                ],
+                date: '2022',
+                link: {exists: true, git: true, url: 'https://github.com/signed-long/istio-auth-example'}
+            },
             {   title: 'TapeFlip.app',
                 type: 'web',
                 techs: ['Python', 'Flask', "Bootstrap", 'Twillio'],
@@ -17,7 +29,7 @@ class Projects extends React.Component {
                     and collecting payments using the PayPal Api/SDK.`
                 ],
                 date: 'Summer, 2020',
-                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/TapeFlip.app'}
+                link: {exists: true, git: true, url: 'https://github.com/signed-long/TapeFlip.app'}
             },
             {   title: 'Swift iPod App',
                 type: 'iOS',
@@ -30,7 +42,7 @@ class Projects extends React.Component {
                     support for playlists, artists, and albums.`
                 ],
                 date: 'Spring, 2020',
-                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/Swift-iPod'}
+                link: {exists: true, git: true, url: 'https://github.com/signed-long/Swift-iPod'}
             },
             {   title: 'Little Free Library App',
                 type: 'Android',
@@ -55,7 +67,7 @@ class Projects extends React.Component {
                     to build a small project with it - so I made this site as my introduction to React.`
                 ],
                 date: 'Summer, 2020',
-                link: {exists: true, git: true, url: 'https://github.com/MichaelongII/react-desktop-portfolio'}
+                link: {exists: true, git: true, url: 'https://github.com/signed-long/react-desktop-portfolio'}
             },
 
         ]
