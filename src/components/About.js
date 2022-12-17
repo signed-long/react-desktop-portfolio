@@ -15,12 +15,11 @@ class About extends React.Component {
                         <li>
                             I'm a student studying
                             computing science at the University of Alberta.
+                        </li>
+                        <li>
                             I'm interested in all parts of the SDLC from development, 
                             CI/CD, security, operations, and even more interested in when these things intersect.
-                            I've completed a 12-month DevOps Engineering Internship at SAP, and am looking for another 
-                            internship opportunity for Spring 2023.
                         </li>
-
                     </ul>
                     <p>
                         Check out my work at:
