@@ -13,10 +13,12 @@ class About extends React.Component {
                     <h2>> whoami</h2>
                     <ul>
                         <li>
-                            I'm a developer and student studying
+                            I'm a student studying
                             computing science at the University of Alberta.
-                            I’m interested in building software that improves
-                            people’s lives, businesses, and art.
+                            I'm interested in all parts of the SDLC from development, 
+                            CI/CD, security, operations, and even more interested in when these things intersect.
+                            I've completed a 12-month DevOps Engineering Internship at SAP, and am looking for another 
+                            internship opportunity for Spring 2023.
                         </li>
 
                     </ul>
